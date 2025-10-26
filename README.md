@@ -20,20 +20,6 @@ An educational project featuring modern reinterpretations of classic **Pong**, *
 - Adjustable FPS using `SetTargetFPS`  
 - Easily extendable (scoreboards, levels, sound, modes)
 
-## 🔧 Requirements
-**Hardware:** Basic GPU with 2D rendering support  
-**Software:** C++ compiler (GCC/MSVC) + [Raylib](https://www.raylib.com/)  
-
-## ▶️ Build & Run
-
-### Linux/macOS:
-g++ -o breakout breakout.cpp -lraylib -lGL -lm -lpthread -ldl -lrt -lX11
-./breakout
-
-### Windows (MSVC):
-g++ -o breakout.exe breakout.cpp -lraylib -lopengl32 -lgdi32 -lwinmm
-breakout.exe
-
 ## 📚 References
 - [Raylib Documentation](https://www.raylib.com/)
 - [freeCodeCamp C++ Tutorial](https://www.youtube.com/watch?v=vLnPwxZdW4Y)
